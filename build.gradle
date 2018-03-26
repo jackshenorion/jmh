@@ -23,6 +23,12 @@ dependencies {
     // The production code uses Guava
     compile 'com.google.guava:guava:20.0'
 
+    // https://mvnrepository.com/artifact/org.openjdk.jmh/jmh-core
+    compile group: 'org.openjdk.jmh', name: 'jmh-core', version: '1.20'
+
+    // https://mvnrepository.com/artifact/org.openjdk.jmh/jmh-generator-annprocess
+    compile group: 'org.openjdk.jmh', name: 'jmh-generator-annprocess', version: '1.20'
+
     // Use JUnit test framework
     testCompile 'junit:junit:4.12'
 }
