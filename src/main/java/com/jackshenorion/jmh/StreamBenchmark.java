@@ -50,7 +50,7 @@ public class StreamBenchmark {
     }
 
     @Benchmark
-    public double sumByLamda() {
+    public double sumByLambda() {
         final double[] sum = {0};
         largeList.forEach(i -> sum[0] += i);
         return sum[0];
